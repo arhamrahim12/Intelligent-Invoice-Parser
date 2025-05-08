@@ -1,0 +1,38 @@
+{
+  "invoice_number": "US-001",
+  "vendor": "East Repair Inc.",
+  "date": "11/02/2019",
+  "due_date": "26/02/2019",
+  "total": "154.06",
+  "line_items": [
+    {
+      "quantity": "1",
+      "description": "Front and rear brake cables",
+      "unit_price": "100.00",
+      "amount": "100.00"
+    },
+    {
+      "quantity": "2",
+      "description": "New set of pedal arms",
+      "unit_price": "15.00",
+      "amount": "30.00"
+    },
+    {
+      "quantity": "3",
+      "description": "Labor 3hrs",
+      "unit_price": "5.00",
+      "amount": "15.00"
+    }
+  ],
+  "tax": {
+    "rate_percent": "6.25",
+    "amount": "9.06"
+  },
+  "validation": {
+    "calculated_subtotal": 145.0,
+    "tax_amount": 9.06,
+    "expected_total": 154.06,
+    "extracted_total": 154.06,
+    "match": true
+  }
+}
